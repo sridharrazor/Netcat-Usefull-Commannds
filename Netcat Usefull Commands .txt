@@ -10,8 +10,7 @@ nc TAB completion = stty raw -echo (background the shell before executing this c
 
 nc clear command = export TERM=xterm 
 
-rlwrap nc -lvnp PORT = we can use navigation keys
-
-
+we can use navigation keys in nc using = rlwrap nc -lvnp PORT
+ 
 
 
